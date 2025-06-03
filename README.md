@@ -1,6 +1,6 @@
-# Bluebird Shipping for WooCommerce
+# Map Shipping for WooCommerce
 
-**Bluebird Shipping** adalah plugin WooCommerce kustom yang memungkinkan perhitungan ongkir berdasarkan jarak (dalam kilometer) antara lokasi gudang (origin) dan alamat pengiriman, menggunakan koordinat latitude dan longitude dari marker peta.
+**Map Shipping** adalah plugin WooCommerce kustom yang memungkinkan perhitungan ongkir berdasarkan jarak (dalam kilometer) antara lokasi gudang (origin) dan alamat pengiriman, menggunakan koordinat latitude dan longitude dari marker peta.
 
 ## 📦 Fitur
 
