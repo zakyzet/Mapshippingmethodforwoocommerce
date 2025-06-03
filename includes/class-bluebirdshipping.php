@@ -25,8 +25,11 @@ class WC_Bluebird_Shipping_Method extends WC_Shipping_Method {
         $origin_lat = get_option('origin_latitude');
         $origin_lng = get_option('origin_longutude');
          $customer_id = get_current_user_id();
-
+     //   $slat = get_user_meta($customer_id, 'shipping_latitude', true);
+     //   $slong = get_user_meta($customer_id, 'shipping_longitude', true);
         
+      //  $slat = isset($_GET['lat']) ? sanitize_text_field($_GET['lat']) : get_user_meta($customer_id, 'shipping_latitude', true);
+      //  $slong = isset($_GET['lang']) ? sanitize_text_field($_GET['lang']) : get_user_meta($customer_id, 'shipping_longitude', true);
         $slat = isset($_POST['shipping_latitude']) ? sanitize_text_field($_POST['shipping_latitude']) : get_user_meta($customer_id, 'shipping_latitude', true);
         $slong = isset($_POST['shipping_longitude']) ? sanitize_text_field($_POST['shipping_longitude']) : get_user_meta($customer_id, 'shipping_longitude', true);
       
