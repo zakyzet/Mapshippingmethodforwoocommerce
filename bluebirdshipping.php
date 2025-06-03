@@ -8,7 +8,7 @@
 
 if (!defined('ABSPATH')) exit;
 
-// Tunggu sampai semua plugin aktif, lalu load class WooCommerce
+
 add_action('plugins_loaded', function () {
     if (!class_exists('WC_Shipping_Method')) return;
 
