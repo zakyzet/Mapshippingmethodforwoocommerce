@@ -3,7 +3,7 @@
  * Plugin Name: Bluebird Shipping
  * Description: Perhitungan ongkir berdasarkan jarak (per km) dengan map marker.
  * Version: 1.1
- * Author: Kamu
+ * Author: iqsa
  */
 
 if (!defined('ABSPATH')) exit;
